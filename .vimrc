@@ -29,8 +29,8 @@ if has("gui_running")
   autocmd VimEnter * if getcwd()=="/" | if strlen(@%) | cd %:p:h | else | cd | endif | endif
 " If running in a Terminal window, set the terminal type to allow syntax
 " highlighting.
-" else
-"   set term=ansi
+"else
+"  set term=ansi
 endif
 
 syntax on
@@ -46,16 +46,14 @@ set cursorcolumn
 set number
 set spell
 set spelllang=en,pl
-set colorcolumn=81,121
-"execute "set colorcolumn=" . join(range(81,335), ',')
-"if &t_Co >= 256 && &bg == "dark"
-"  highlight ColorColumn ctermbg=233
-"elseif &t_Co >= 256 && &bg != "dark"
-"  highlight ColorColumn ctermbg=230
-"else
-"  highlight ColorColumn ctermbg=8
-"endif
+"set colorcolumn=81,121
+"execute "set colorcolumn=" . join(range(81,121), ',')
+highlight ColorColumn ctermbg=red
 
-set tw=79       " width of document (used by gd)
+"set tw=79       " width of document (used by gd)
 set nowrap      " don't automatically wrap on load
 set fo-=t       " don't automatically wrap text when typing
+set term=screen-256color " potrzebne aby tmux wyświetlał prawidłowo kolory
+
+" chcę mieć 2 linie. Chyba nic innego nie ma? Może dałoby radę ładniejszą linię malować?
+let &colorcolumn='81,' . join(range(121,333), ',')
