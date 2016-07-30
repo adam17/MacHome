@@ -47,3 +47,15 @@ set number
 set spell
 set spelllang=en,pl
 set colorcolumn=81,121
+"execute "set colorcolumn=" . join(range(81,335), ',')
+"if &t_Co >= 256 && &bg == "dark"
+"  highlight ColorColumn ctermbg=233
+"elseif &t_Co >= 256 && &bg != "dark"
+"  highlight ColorColumn ctermbg=230
+"else
+"  highlight ColorColumn ctermbg=8
+"endif
+
+set tw=79       " width of document (used by gd)
+set nowrap      " don't automatically wrap on load
+set fo-=t       " don't automatically wrap text when typing
