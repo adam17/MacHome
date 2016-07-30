@@ -35,8 +35,8 @@ endif
 
 syntax on
 filetype plugin indent on
-set tabstop=4
-set shiftwidth=4
+set tabstop=2
+set shiftwidth=2
 set expandtab
 set ruler
 
@@ -46,3 +46,4 @@ set cursorcolumn
 set number
 set spell
 set spelllang=en,pl
+set colorcolumn=81,121
