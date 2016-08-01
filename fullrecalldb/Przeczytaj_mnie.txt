@@ -1,0 +1,17 @@
+﻿Baza zawiera pełny zestaw pytań testowych do egzaminu teoretycznego na prawo jazdy kategorii: A (motocykl), T (traktor), C (ciężarówka) i D (autobus).
+
+Pytania są aktualne i oficjalne. Pochodzą one z oficjalnej strony Ministerstwa Transportu, Budownictwa i Gospodarki Morskiej: http://www.transport.gov.pl/2-48246998d7841.htm
+
+Baza z pewnością będzie przydatna dla osób przygotowujących się do egzaminu lub chcących przypomnieć sobie wiedzę po przerwie. Nauka z wykorzystaniem mechanizmu powtórek FullRecall jest o wiele bardziej efektywna niż przerabianie tych testów w oparciu o typowe programy rozdawane kursantom przez ośrodki szkolenia kierowców.
+
+ŁOPATOLOGICZNA INSTRUKCJA:
+
+Plik o nazwie importuj_mnie należy zaimportować w programie FullRecall poprzez klikanie kolejno: -> Plik -> Import/Eksport, -> Import pytań-i-odpowiedzi z pliku do kolejki
+
+Następnie w okienku, które się pojawi, należy odszukać lokalizację pliku importuj_mnie i kliknąć na niego, żeby jego nazwa pojawiła się polu nazwy pliku. W polu filtr i format pliku można nie zmieniać nic (plik jest tekstowy, a kodowanie to UTF-8, ale FullRecall powinien sam skutecznie to rozpoznać). 
+
+Po kliknięciu OK pojawi się komunikat o zaimportowaniu 560 pytań podzielonych na 4 kategorie. 
+
+Teraz należy skopiować grafiki z katalogu Obrazki do katalogu imgs w folderze programu FullRecal. Jeśli w folderze, w którym masz swoją bazę Fullrecall nie masz katalogu imgs, to go tam najpierw utwórz :). 
+
+Efektywnej nauki!
