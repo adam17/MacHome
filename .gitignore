@@ -1,4 +1,3 @@
 .DS_Store
-fullrecalldb/*.bin
-fullrecalldb/elements.xml
-fullrecalldb/error.log
+/fullrecalldb/*
+/*fullrecalldb/*
