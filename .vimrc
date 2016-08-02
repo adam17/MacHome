@@ -7,6 +7,7 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'itchyny/lightline.vim'
+Plugin 'mattn/emmet-vim'
 
 
 " kończ te całe Vundle
