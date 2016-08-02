@@ -6,6 +6,7 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'gmarik/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe'
+Plugin 'itchyny/lightline.vim'
 
 
 " kończ te całe Vundle
@@ -57,3 +58,5 @@ set term=screen-256color " potrzebne aby tmux wyświetlał prawidłowo kolory
 
 " chcę mieć 2 linie. Chyba nic innego nie ma? Może dałoby radę ładniejszą linię malować?
 let &colorcolumn='81,' . join(range(121,333), ',')
+
+set laststatus=2
