@@ -8,6 +8,9 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'itchyny/lightline.vim'
 Plugin 'mattn/emmet-vim'
+Plugin 'Shutnik/jshint2.vim'
+"Plugin 'skammer/vim-css-color'
+Plugin 'ap/vim-css-color'
 
 
 " kończ te całe Vundle
@@ -61,3 +64,7 @@ set term=screen-256color " potrzebne aby tmux wyświetlał prawidłowo kolory
 let &colorcolumn='81,' . join(range(121,333), ',')
 
 set laststatus=2
+
+" run JSHint when a file with .js extension is saved
+" " this requires the jsHint2 plugin
+autocmd BufWritePost *.js silent :JSHint
