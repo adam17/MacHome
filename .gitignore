@@ -1,4 +1,4 @@
 .DS_Store
 /fullrecalldb/*
-!/fullrecalldb/snds/*
-!/fullrecalldb/imgs/*
+!/fullrecalldb/snds/
+!/fullrecalldb/imgs/
