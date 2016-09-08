@@ -52,6 +52,7 @@ set number
 set spell
 set spelllang=en,pl
 "set colorcolumn=81,121
+set colorcolumn=81
 "execute "set colorcolumn=" . join(range(81,121), ',')
 highlight ColorColumn ctermbg=red
 
@@ -61,7 +62,7 @@ set fo-=t       " don't automatically wrap text when typing
 set term=screen-256color " potrzebne aby tmux wyświetlał prawidłowo kolory
 
 " chcę mieć 2 linie. Chyba nic innego nie ma? Może dałoby radę ładniejszą linię malować?
-let &colorcolumn='81,' . join(range(121,333), ',')
+"let &colorcolumn='81,' . join(range(121,333), ',')
 
 set laststatus=2
 
