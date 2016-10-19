@@ -10,3 +10,5 @@ echo "Czytam $HOME/.profile"
 
 # chcę VIM, a nie VI jako edytor dla GIT
 export EDITOR=vim
+
+alias ll="ls -l"
