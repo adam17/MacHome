@@ -69,3 +69,7 @@ set laststatus=2
 " run JSHint when a file with .js extension is saved
 " " this requires the jsHint2 plugin
 autocmd BufWritePost *.js silent :JSHint
+
+" I want backspace to work!
+" 2  same as ":set backspace=indent,eol,start" 
+set backspace=2
