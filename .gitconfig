@@ -14,3 +14,5 @@
 	branch = green
 [commit]
   template = ~/.gitmessage
+[alias]
+	ll = log --oneline --all --decorate --graph
