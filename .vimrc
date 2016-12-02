@@ -71,5 +71,7 @@ set laststatus=2
 autocmd BufWritePost *.js silent :JSHint
 
 " I want backspace to work!
-" 2  same as ":set backspace=indent,eol,start" 
+" 2  same as ":set backspace=indent,eol,start"
 set backspace=2
+" Show line breaks
+set list
