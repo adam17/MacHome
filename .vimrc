@@ -45,9 +45,13 @@ set shiftwidth=2
 set expandtab
 set ruler
 
-" moje własne reguły
-set cursorline
-set cursorcolumn
+" my own rules
+"
+" I commented these out because if I use iTerm pressing ⌘++/ will show me where
+" the cursor is
+"set cursorline
+"set cursorcolumn
+" other rules I like
 set number
 set spell
 set spelllang=en,pl
