@@ -58,7 +58,7 @@ set spelllang=en,pl
 "set colorcolumn=81,121
 set colorcolumn=81
 "execute "set colorcolumn=" . join(range(81,121), ',')
-highlight ColorColumn ctermbg=red
+highlight ColorColumn ctermbg=166
 
 "set tw=79       " width of document (used by gd)
 set nowrap      " don't automatically wrap on load
@@ -77,5 +77,13 @@ autocmd BufWritePost *.js silent :JSHint
 " I want backspace to work!
 " 2  same as ":set backspace=indent,eol,start"
 set backspace=2
-" Show line breaks
+" Show line breaks and other chars
+set listchars=tab:>~,nbsp:_,trail:.,eol:$
 set list
+
+" better indentations: do not loose focus after you indent
+vnoremap < <gv
+vnoremap > >gv
+
+" show relative number, it looks quite good to me ;)
+set relativenumber
